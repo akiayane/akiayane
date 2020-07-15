@@ -1,0 +1,265 @@
+body{
+  background-color: lightblue;
+  height: 100%;
+  width: 100%;
+  padding:0;
+  margin:0;
+  font-family: sans-serif;
+  background-image: url("bluesealow.jpg");
+  background-size: 1920px 1080px;
+  background-position: 15% 15%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+.contactlink{
+  left:30%;
+  color: white;
+  text-decoration: none;
+  position: relative;
+}
+
+.contactlink::after{
+  content: "";
+  background: white;
+	mix-blend-mode: exclusion;
+  width: calc(100% + 20px);
+  height: 0;
+  position: absolute;
+  bottom: -4px;
+  left: -10px;
+	transition: all .3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.contactlink:hover::after{
+	height: calc(100% + 8px)
+}
+
+
+#email:hover{
+
+}
+
+
+
+.checked {
+  color: #072529;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  /*
+  border: 1px solid black;*/
+}
+
+.forsvg{
+  display:block;
+  margin:0 auto;
+}
+
+.foralign{
+  padding-top: 15vh;
+  height: 80vh;
+}
+
+.foralign p{
+  vertical-align:top;
+}
+
+.cell{
+  padding-left: 5vw;
+}
+
+
+
+.container {
+  padding: 2vh;
+  padding-left: 4vw;
+  position: relative;
+  width: 65%;
+}
+
+.image {
+  filter: grayscale(1);
+  border-radius: 2%;
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+  filter: grayscale(0);
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.link {
+  text-decoration: none;
+  background-color: transparent;
+  color: white;
+  font-size: 32px;
+  padding: 12px 16px;
+  border: 1px solid transparent;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.link:hover{
+  border-color:white;
+}
+
+.langmenu{
+  z-index: 2;
+  left:85%;
+  position: fixed;
+}
+
+.title{
+  font-size:16pt;font-weight:bold; color:#072529;
+}
+
+#scrollbar{
+  z-index: 5;
+  left:0%;
+  top:0%;
+  position: fixed;
+  height: 1.6vh;
+  width: 0%;
+  background-color: #072529;
+  transition: 0.3s;
+}
+
+#fixedmenu{
+  align-items: center;
+  background-color: transparent;
+  position: absolute;
+  height: 55vh;
+  width: 22vh;
+  left: 85%;
+  top:100.1%;
+}
+
+#fixedmenu.fixed {
+  position: fixed;
+  top: 0px;
+}
+
+#fixedmenu a {
+  text-align: center;
+  height: 8vh;
+  background-color: #072529;
+  color: #e7f0ed;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+#fixedmenu a:hover {
+  background-color: #ccc;
+  color: #072529;
+}
+
+#fixedmenu a.active {
+  background-color: #e7f0ed;
+  color: #072529;
+}
+
+
+.block{
+  z-index: 1;
+  border-radius: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100vh;
+  width: 100%;
+
+}
+
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: #e7f0ed;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #072529;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #072529;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}

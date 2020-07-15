@@ -1,0 +1,23 @@
+{
+  "title":"<h1 style=\"color:white; font-size: 42pt\">Ayaganov Aitbek</h1>",
+  "hr":"<hr style=\"width:60%\">",
+  "subtitle":"<h1 style=\"color:#dbdbdb; font-weight:100\">Interactive resume</h1>",
+  "profileHref":"Profile",
+  "educationHref":"Education",
+  "skillsHref":"Skills",
+  "moreinfoHref":"More info",
+  "contactsHref":"Contacts",
+  "prof_title":"<h1 style=\"font-size:32pt; color:#072529\">Profile</h1>",
+  "prof_left":"<h4 style=\"font-size:16pt\">About me</h4>My name is Ayaganov Aitbek. I am 19 years old Software Engineering student, seeking internships and work experience to use and practice my programming skills and knowledge. I love structure and order and I also stand for quality. Full of enthusiasm, motivation, ideas, and ready to work!",
+  "edu_title":"<h1 style=\"font-size:25pt; color:#072529\">Education</h1><p class=\"title\" style=\"color:#383838; font-size:10pt\"><q>The pain of studying is only temporary. But the pain of not knowing — ignorance — is forever</q> <br>- Henry Novak</p>",
+  "edu_left":"<p style=\"font-weight:100\"><span class= \"title\">AITU</span><br>Astana IT University</p><p>Sep 2019 - Present</p><br><br><br><p style=\"font-weight:100\"><span class= \"title\">NIS in Nur-Sultan</span><br>  Nazarbayev Intellectual school of Physics and Maths in Nur-Sultan</p><p>Sep 2015 - June 2019</p><br>",
+  "edu_right1":"<p style=\"font-weight:100\"><span class= \"title\">Bachelor - Software Engineering</span><br>Since I am a sophomore on my University courses, I am already familiar with the basics of programming, algorithms and data structures, OOP principles, design patterns, web technologies and had experience with different projects as part of term papers. I also studied English for professional purposes and had courses for higher mathematics like discrete math and calculus.</p>",
+  "edu_right2":"<br><p style=\"font-weight:100\"><span class= \"title\">High School - Physics and Maths </span><br>In high school, I took my first steps into science and advanced mathematics. I got the basics of Computer Science and coded my first programs. In addition, I studied English a lot and got IELTS 6.5 at the end of my high school. Besides academic achievements, I formed such soft skills like communication and leadership, stress resistance and critical thinking</p>",
+  "skills_title":"<h1 style=\"font-size:25pt; color:#072529\">Skills</h1>",
+  "skills_left":"<span class=\"title\">Languages</span><ul style=\"list-style-type:none\"><li>Russian(Native speaker)</li><li>Kazakh(Native speaker)</li><li>English(Advanced)</li></ul><span class= \"title\">Soft Skills</span><ul style=\"list-style-type:none\"><li>Time Management</li><li>Communication</li><li>Organization</li><li>Analytical Abilities</li><li>Research skills</li></ul>",
+  "skills_right":"<span class=\"title\">Programming Languages</span><ul style=\"list-style-type:none\"><li>Java</li><li>C++ </li><li>Python</li></ul><span class= \"title\">Scripting Languages</span><ul style=\"list-style-type:none\"><li>JavaScript</li><li>PHP </li></ul><span class= \"title\">I am also familiar with</span><ul style=\"list-style-type:none\"><li>HTML&CSS</li><li>JQuery</li><li>AJAX&JSON</li><li>Node.js</li><li>SQL</li></ul>",
+  "more_title":"<h1 style=\"font-size:25pt; color:#e7f0ed\">Hobbies & Projects</h1>",
+  "more_left":"<span class= \"title\" style=\"color:#e7f0ed\">Art means a lot to me</span><p>I love to spend my free time doing visual arts like drawing and photography. I see it as one of the ways to expressmy thoughts and feelings. I also consider them as one of the methods of relaxation and practicing analytical thinking.</p><br>",
+  "more_right":"<span class= \"title\" style=\"color:#e7f0ed\">My recent projects</span>",
+  "contact_title":"<h1 style=\"font-size:25pt; color:#e7f0ed\">Contacts</h1>"
+}
