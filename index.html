@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hi, I am Aki!</title>
+    <link rel="stylesheet" href="page.css">
+    <link rel="icon" href="it.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+    <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src = "ajaxload.js"></script>
+
+  </head>
+  <body>
+
+    <div id = "scrollbar">
+    </div>
+
+
+    <div class = "langmenu">
+      <div style="background-color:transparent; width:22vh; height:8vh; padding-top:4vh; padding-bottom:3vh; display:flex; flex-direction:row; ">
+
+
+        <div style="color: #e7f0ed;padding-top: 1.3vh; padding-right:1vw; padding-left:0.7vw;">
+
+          <span style="text-shadow: 2px 2px #072529;">EN</span>
+
+        </div>
+
+
+        <div >
+
+          <label class="switch">
+            <input type="checkbox" id="langsw" >
+            <span class="slider round"></span>
+          </label>
+
+          <script src="ajaxchange.js"></script>
+
+        </div>
+
+        <div style="color: #e7f0ed;padding-top: 1.3vh; padding-left:1vw; padding-right:0.7vw;">
+
+          <span style="text-shadow: 2px 2px #072529;">RU</span>
+
+        </div>
+
+
+      </div>
+    </div>
+
+
+
+
+    <div id="fixedmenu">
+
+      <div style="background-color:transparent; width:20vh; height:12vh;"></div>
+
+      <div>
+        <a href="#profile" style="border-top-right-radius:5px; border-top-left-radius:5px;"><div id = "profileHref">Profile</div></a>
+        <a href="#education"><div id = "educationHref">Education</div></a>
+        <a href="#skills"><div id = "skillsHref">Skills</div></a>
+        <a href="#addinfo"><div id = "moreinfoHref">Projects</div></a>
+        <a href="#contact" style="border-bottom-right-radius:5px; border-bottom-left-radius:5px;"><div id = "contactsHref">Contacts</div></a>
+      </div>
+
+    </div>
+
+    <div class="block" id = "meeting" >
+
+      <div style="padding-top: 30vh; text-align:center; position:fixed; z-index:-1; width:100%">
+        <div style="display:none; " id = "meet">
+          <!--
+          <h1 style="color:white; font-size: 42pt">Ayaganov Aitbek</h1>
+          <hr style="width:60%">
+          <h1 style="color:#dbdbdb; font-weight:100">Interactive resume</h1>
+          -->
+        </div>
+
+      </div>
+
+      <div style="display:flex; flex-direction:row">
+
+      </div>
+
+    </div>
+
+
+
+    <div class="block" id = "profile" style="background-color: #e7f0ed">
+
+      <table style="width:100%">
+        <tr style="text-align:center; height:15vh">
+          <td colspan="2"> <div id = "prof_title"><h1 style="font-size:8vh; color:#072529">Profile</h1></div> </td>
+        </tr>
+        <tr style="height:85vh">
+          <td class="cell" style = "width:50vw;">
+            <div style = "width:60vw; font-size:4vh"id = "prof_left" f>
+              <h4 style="font-size:7vh">About me</h4>My name is Ayaganov Aitbek.
+               I am 19 years old Software Engineering student, seeking internships
+               and work experience to use and practice my programming skills and
+                knowledge. I love structure and order and I also stand for quality.
+                Full of enthusiasm, motivation, ideas and ready to work!
+
+            </div>
+          </td>
+          <td ><div id = "prof_right"></div></td>
+        </tr>
+      </table>
+
+    </div>
+
+
+    <div class="block" id = "education" style="background-color: #bdd3d9">
+
+      <table style="width:100%">
+        <tr style="text-align:center; height:20vh">
+          <td colspan="2"> <div id = "edu_title">
+            <h1 style="font-size:7vh; color:#072529">Education</h1>
+            <p class="title" style="color:#383838; font-size:3vh"><q>The pain of studying is only temporary.
+               But the pain of not knowing — ignorance — is forever</q>
+             <br>- Henry Novak
+           </p>
+          </div></td>
+        </tr>
+        <tr style="height:80vh;">
+          <td style="width:25vw; color: #383838" class="cell" >
+            <div id = "edu_left" class="foralign" style="padding-top:8vh">
+              <p style="font-weight:100"><span class= "title">AITU</span><br>
+              Astana IT University</p>
+              <p>Sep 2019 - Present</p>
+              <br>
+              <p style="font-weight:100; padding-top:1vh" ><span class= "title">NIS in Nur-Sultan</span><br>
+                Nazarbayev Intellectual school of Physics and Maths in Nur-Sultan</p>
+              <p>Sep 2015 - June 2019</p>
+              <br>
+            </div>
+          </td>
+          <td style="width:75vw;color: #383838" class="cell" >
+            <div id = "edu_right" style="width:50vw;padding-top:8vh" class="foralign">
+              <p style="font-weight:100"><span class= "title">Bachelor - Software Engineering</span><br>
+                Since I am a sophomore on my University courses, I am already familiar with the
+                basics of programming, algorithms and data structures, OOP principles, design patterns,
+                web technologies and had experience with different projects as part of term papers. I also studied English for
+                professional purposes and had courses for higher mathematics like discrete math and calculus.</p>
+
+                <p style="font-weight:100"><span style="padding-top:1vh;" class= "title">High School - Physics and Maths </span><br>
+                  In high school, I took my first steps into science and advanced mathematics.
+                  I got the basics of Computer Science and coded my first programs. In addition, I studied English a lot
+                  and got IELTS 6.5 at the end of my high school. Besides academic achievements, I formed such soft skills like
+                  communication and leadership, stress resistance and critical thinking</p>
+            </div>
+          </td>
+        </tr>
+      </table>
+
+    </div>
+
+
+    <div class="block" id = "skills" style="background-color: #7fb9c2">
+      <table style="width:100%">
+        <tr style="text-align:center; height:15vh">
+          <td colspan="2"> <div id = "skills_title"><h1 style="font-size:7vh; color:#072529">Skills</h1></div></td>
+        </tr>
+        <tr style="height:85vh">
+          <td class="cell" style="width:25vw;">
+            <div  class="foralign" style="display:flex; flex-direction:row; padding-top:2vh">
+              <div  id = "skills_left" style="width:23vw;">
+                <span class= "title">Languages</span>
+                <ul style="list-style-type:none">
+                  <li>Russian(Native speaker)</li>
+                  <li>Kazakh(Native speaker) </li>
+                  <li>English(Advanced)</li>
+                </ul>
+
+                <span class= "title">Soft Skills</span>
+                <ul style="list-style-type:none">
+                  <li>Time Management</li>
+                  <li>Communication </li>
+                  <li>Organization  </li>
+                  <li>Analytical Abilities</li>
+                  <li> Research skills </li>
+                </ul>
+
+
+            </div>
+            <div style="width:15vw; padding-top:0.7vh">
+              <br>
+              <br>
+                <span style="padding-top:1vh" class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span><br>
+
+
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span></span>
+                <span style="color: #ccc" class="fa fa-star"></span><br>
+
+
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span><br>
+
+
+                <span style="padding-top: 10.2vh;"class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span style="color: #ccc" class="fa fa-star "></span><br>
+
+
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span></span>
+                <span class="fa fa-star checked"></span><br>
+
+
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span style="color: #ccc" class="fa fa-star "></span><br>
+
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span><br>
+
+
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span><br>
+
+            </div>
+            </div>
+          </td>
+          <td class="cell" style="width:70vw;">
+            <div  class="foralign" style="display:flex; flex-direction:row; padding-top:2vh">
+              <div id = "skills_right" style="width:28vw;">
+                <span class= "title">Programming Languages</span>
+                <ul style="list-style-type:none">
+                  <li>Java</li>
+                  <li>C++ </li>
+                  <li>Python</li>
+                </ul>
+
+                <span class= "title">Scripting Languages</span>
+                <ul style="list-style-type:none">
+                  <li>JavaScript</li>
+                  <li>PHP </li>
+                </ul>
+
+                <span class= "title">I am also familiar with</span>
+                <ul style="list-style-type:none">
+                  <li>HTML&CSS</li>
+                  <li>JQuery</li>
+                  <li>AJAX&JSON</li>
+                  <li>Node.js</li>
+                  <li>SQL</li>
+                </ul>
+
+
+            </div>
+            <div style="width:15vw; padding-top:0.7vh">
+              <br>
+              <br>
+                <span style = "padding-top:1vh;"class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span><br>
+
+
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span style="color: #ccc" class="fa fa-star"></span><br>
+
+
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span style="color: #ccc" class="fa fa-star"></span>
+                <span style="color: #ccc" class="fa fa-star"></span><br>
+
+
+                <span style="padding-top: 10.2vh;"class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span><br>
+
+
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span style="color: #ccc" class="fa fa-star "></span>
+                <span style="color: #ccc" class="fa fa-star "></span><br>
+
+
+            </div>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="block" id = "addinfo" style="background-color:#44737b">
+      <table style="width:100%; color:#e7f0ed">
+        <tr style="text-align:center; height:15vh">
+          <td colspan="3"> <div id = "more_title"><h1 style="font-size:7vh; color:#e7f0ed">Hobbies & Projects</h1></div> </td>
+        </tr>
+        <tr style="height:85vh">
+          <td class="cell" style="width:40vw;">
+            <div  class="foralign" style="padding-top:5vh">
+              <div id = "more_left">
+              <span class= "title" style="color:#e7f0ed">Art means a lot to me</span>
+              <p>I love to spend my free time doing visual arts like drawing and photography. I see it as one of the ways to express
+                my thoughts and feelings. I also consider them as one of the methods of relaxation and practicing analytical thinking.</p>
+              </div>
+
+                <div class="container">
+                  <img src="dude.jpg.jpg" alt="Avatar" class="image" style="width:100%">
+                  <div class="middle">
+                    <a class="link" href="https://www.instagram.com/akiayane__/" target="_blank">Instagram</a>
+                  </div>
+                </div>
+              </div>
+          </td>
+          <td class="cell" style="width:42vw;">
+            <div class="foralign" style="padding-top:5vh">
+              <div  id = "more_right">
+              <span class= "title" style="color:#e7f0ed">My recent projects</span>
+
+              <p>Currently I am posting all of my projects on GitHub, so you are welcome to see it</p>
+
+              </div>
+
+              <div class="container" style="left:48%; width:20%">
+                <img src="gitpage.png" alt="Avatar" class="image" style="width:100%">
+                <div class="middle" >
+                  <a class="link" href="https://github.com/akiayane" target="_blank">GitHub</a>
+                </div>
+              </div>
+
+            </div>
+          </td>
+          <td style="width:18vw"></td>
+        </tr>
+      </table>
+    </div>
+
+
+    <div class="block" id = "contact" style="background-color: #164f55">
+      <table style="width:100%">
+        <tr style="text-align:center; height:15vh">
+          <td colspan="2"> <div id = "contact_title"><h1 style="font-size:7vh; color:#e7f0ed">Contacts</h1></div> </td>
+        </tr>
+        <tr style="height:75vh;color:#e7f0ed">
+          <td class="cell" colspan="2">
+            <div class="borderWrapper">
+              <div class="forinlinedivs">
+                <div style="height:10vh; width:25vw; display: flex; justify-content: flex-end; padding-right:3vw;">
+                  <img src="instagram.svg" style="height:10vh; width:10vw;" />
+                </div>
+                <div style="height:10vh; width:auto; display: flex; align-items:center;">
+                  <a href="https://www.instagram.com/akiayane__/" target="_blank" class="contactlink">instagram.com/akiayane__</a>
+                </div>
+              </div>
+              <div class="forinlinedivs">
+                <div style="height:10vh; width:25vw; display: flex; justify-content: flex-end; padding-right:3vw;">
+                  <img src="Telegram.svg" style="height:10vh; width:10vw;" />
+                </div>
+                <div style="height:10vh; width:auto;  display: flex; align-items:center;">
+                  <a href="https://t.me/akiayane" target="_blank" class="contactlink">t.me/akiayane</a>
+                </div>
+
+              </div>
+              <div class="forinlinedivs">
+                <div style="height:10vh; width:25vw; display: flex; justify-content: flex-end; padding-right:3vw;">
+                  <img src="gmail.svg" style="height:10vh; width:10vw;" />
+                </div>
+                <div id = "email" style="height:10vh; width:55vw;  display: flex; align-items:center;" class="forinlinedivs">
+                  <a id = "emaillink" class="contactlink"> aitbek.ayaganov@gmail.com </a>
+                  <div id="innerEmail" style="height:10vh; width:13vw; opacity:0; padding-left:1vw;">
+                    <div style="padding:1vh; padding-left:1vw;">
+                      <div class="tooltip" id = "tooltiptext1"> Click the link to copy to clipboard</div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="forinlinedivs">
+                <div style="height:10vh; width:25vw; display: flex; justify-content: flex-end; padding-right:3vw;">
+                  <img src="whatsapp.svg" style="height:10vh; width:10vw;" />
+                </div>
+                <div id = "phone" style="height:10vh; width:55vw;  display: flex; align-items:center;" class="forinlinedivs">
+                  <a id = "phonelink" class="contactlink"> +7(705) 583-75-54 </a>
+                  <div id="innerPhone" style="height:10vh; width: 13vw; opacity:0; padding-left:1vw;">
+                    <div style="padding:1vh; padding-left:1vw;">
+                      <div class="tooltip" id = "tooltiptext2"> Click the link to copy to clipboard</div>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+
+
+            <div>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <script src="page.js"></script>
+  </body>
+</html>
