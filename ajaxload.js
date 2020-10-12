@@ -14,3 +14,17 @@ $.ajax({
     console.log("there is an error")
   }
 });
+
+
+$.ajax({
+  type:'GET',
+  dataType:'json',
+  url: "ru.json",
+  cache:true,
+  success: function(data){
+    console.log("ru json loaded")
+  },
+  error: function(data){
+    console.log("there is an error")
+  }
+});

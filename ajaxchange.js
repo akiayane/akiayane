@@ -12,7 +12,8 @@ function hidealldiv(){
   $('#prof_left').fadeOut(400);
 
   $('#edu_title').fadeOut(400);
-  $('#edu_right').fadeOut(400);
+  $('#edu_right1').fadeOut(400);
+  $('#edu_right2').fadeOut(400);
   $('#edu_left').fadeOut(400);
 
   $('#skills_title').fadeOut(400);
@@ -37,7 +38,8 @@ function showalldiv(){
   $('#prof_left').fadeIn(400);
 
   $('#edu_title').fadeIn(400);
-  $('#edu_right').fadeIn(400);
+  $('#edu_right1').fadeIn(400);
+  $('#edu_right2').fadeIn(400);
   $('#edu_left').fadeIn(400);
 
   $('#skills_title').fadeIn(400);
@@ -82,9 +84,10 @@ function ajaxchange(langStr){
 
         $('#edu_title').empty();
         $('#edu_title').append(data.edu_title);
-        $('#edu_right').empty();
-        $('#edu_right').append(data.edu_right1);
-        $('#edu_right').append(data.edu_right2)
+        $('#edu_right1').empty();
+        $('#edu_right2').empty();
+        $('#edu_right1').append(data.edu_right1);
+        $('#edu_right2').append(data.edu_right2);
         $('#edu_left').empty();
         $('#edu_left').append(data.edu_left);
 

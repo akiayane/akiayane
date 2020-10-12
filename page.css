@@ -106,10 +106,9 @@ table, th, td {
 
 
 .container {
-  top:450%;
+  top:440%;
   left:10%;
   position: absolute;
-  width: 20%;
 }
 
 
@@ -118,8 +117,8 @@ table, th, td {
   border-radius: 2%;
   opacity: 1;
   display: block;
-  width: 100%;
-  height: auto;
+  width: 200%;
+  height: 200%;
   transition: .5s ease;
   backface-visibility: hidden;
 }
@@ -131,7 +130,6 @@ table, th, td {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
 
