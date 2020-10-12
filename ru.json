@@ -17,7 +17,7 @@
   "skills_left":"<span class=\"title\">Языки</span><ul style=\"list-style-type:none\"><li>Русский(Носитель языка)</li><li>Казахский(Носитель языка)</li><li>Английский(Продвинутый)</li></ul><span class= \"title\">Гибкие навыки</span><ul style=\"list-style-type:none\"><li>Тайм-менеджмент</li><li>Коммуникация</li><li>Организация</li><li>Аналитическое мышление</li><li>Исследовательские навыки</li></ul>",
   "skills_right":"<span class=\"title\">Языки программирования</span><ul style=\"list-style-type:none\"><li>Java</li><li>C++ </li><li>Python</li></ul><span class= \"title\">Скриптовые языки</span><ul style=\"list-style-type:none\"><li>JavaScript</li><li>PHP </li></ul><span class= \"title\">Я так же знаком с</span><ul style=\"list-style-type:none\"><li>HTML&CSS</li><li>JQuery</li><li>AJAX&JSON</li><li>Node.js</li><li>SQL</li></ul>",
   "more_title":"<h1 style=\"font-size:7vh; color:#e7f0ed\">Опыт работы & Проекты</h1>",
-  "more_left":"<span class= \"title\" style=\"color:#e7f0ed\">Карьера</span><ul><li> <span class=\"title\" style=\"color:white\">Контент-Инжинер В Bilim Media Group</span><p>Был ответственен за структуру, тест и загрузку данных на сервер</p></li></ul>",
+  "more_left":"<span class= \"title\" style=\"color:#e7f0ed\">Карьера</span><ul><li> <span class=\"title\" style=\"color:white\">Контент-Инженер В Bilim Media Group</span><p>Был ответственен за структуру, тест и загрузку данных на сервер</p></li></ul>",
   "more_right":"<span class= \"title\" style=\"color:#e7f0ed\">Мои последние проекты</span><p>В настоящее время я публикую все свои проекты на GitHub, и я буду очень рад если вы взгляните на них</p>",
   "contact_title":"<h1 style=\"font-size:7vh; color:#e7f0ed\">Контакты</h1>"
 }
