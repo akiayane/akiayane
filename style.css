@@ -65,6 +65,14 @@ body{
 }
 .skills { grid-area: skills; }
 
+.title{
+  font-size: 3vw;
+}
+
+.text{
+  font-size: 1.5vw;
+}
+
 @media only screen and (max-width: 900px) {
   .titleline-name{
     font-size:12vw;
@@ -96,7 +104,13 @@ body{
       ".";
   }
 
+  .title{
+    font-size: 5vw;
+  }
 
+  .text{
+    font-size: 3vw;
+  }
 }
 
 @media only screen and (max-width: 1000px) {
