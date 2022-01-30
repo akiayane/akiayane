@@ -1,214 +1,165 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Aitbek's Resume</title>
-    <link rel="icon" href="it.svg">
-    <link rel="stylesheet" href="style.css">
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-  </head>
-  <body>
-
-
-    <div class="block">
-      <div style="position:fixed; z-index:-1;padding-top:30vh; width:100%; text-align:center">
-        <div class="titleline-name">Aitbek Ayaganov</div>
-        <hr style="width:80vw;">
-        <div class="titleline-subject">Interactive resume</div>
-      </div>
-    </div>
-
-
-    <div style="top:100%; background-color: black; color:white" class="block">
-      <div style="padding-left:5vw; padding-right:5vw;" class="profile-grid-container">
-        <div style="text-align:center">
-          <div class="titleline-subject" style="padding-top:5vh;">Profile</div>
-        </div>
-        <div>
-          <div style="">
-            <div style="padding-top:20vw;font-size:8vh;">
-              About Me
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Aitbek's Resume</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/it.svg" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Аяганов Айтбек</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.png" alt="..." /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Обо мне</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Навыки</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Образование</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Опыт</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Проекты</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Контакты</a></li>
+                </ul>
             </div>
-            <div style="padding-top:5vh; font-size:4vh;">
-              My name is Ayaganov Aitbek. I am 20 years old Software Engineering student, seeking internships and work experience to use and practice my programming skills and knowledge.
-              I love structure, order and I also stand for quality. Full of enthusiasm, motivation, ideas, and ready to work!
-            </div>
-          </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Аяганов
+                        <span class="text-primary">Айтбек</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                        Нур-Султан, Казахстан 
+                        <a href="mailto:aitbek.ayaganov@gmail.com" class = "" target="_blank">aitbek.ayaganov@gmail.com</a>
+                    </div>
+                    <p class="lead mb-5">Начинающий backend разработчик. Люблю простоту, структурированность и декомпозицию.</p>
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://t.me/akiayane" target="_blank"><i class="fab fa-telegram"></i></a>
+                        <a class="social-icon" href="https://github.com/akiayane" target="_blank"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" href="https://wa.me/77055837554" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Навыки</h2>
+                    <div class="subheading mb-3">Языки программирования</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item">Golang</li>
+                        <li class="list-inline-item">PHP</li>
+                        <li class="list-inline-item">Typescript</li>
+                    </ul>
+                    <div class="subheading mb-3">Другие технологии с которыми я знаком</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            Gin Framework, HTTP, Websocket, gRPC, Protocol Buffers
+                        </li>
+                        <li>
+                            Apache2, Nginx, Docker
+                        </li>
+                        <li>
+                            MySQL, PostgreSQl
+                        </li>
+                    </ul>
+                    <br>
+                    <div class="subheading mb-3">Концепты с которыми я знаком</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            OOP, REST, RPC
+                        </li>
+                        <li>
+                            Microservices, Monolithic architecture
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Образование</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Astana IT University</h3>
+                            <div class="subheading mb-3">Бакалавр - Software Engineering</div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Сентябрь 2019 - Настоящее время</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">НИШ ФМН в Нур-Султане</h3>
+                            <div class="subheading mb-3">Физика и Математика</div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Сентябрь 2015 - Июнь 2019</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Опыт</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Программист Стажер</h3>
+                            <div class="subheading mb-3">Республиканский научно-практический центр Дарын</div>
+                            <p>Создавал небольшие сайты на PHP для онлайн мероприятий, Telegram bot'a для проведения апелляции на Республиканской олимпиаде 2021. Так же оказывал поддержку в других проектах технического отдела.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Декабрь 2020 - Июль 2021</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Контент Инженер</h3>
+                            <div class="subheading mb-3">Bilim Media Group</div>
+                            <p>Создавал задания для обучающей платформы на специальном конструкторе. Был ответственен за тест и загрузку готовых данных на сервер.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Июль 2020 - Сентябрь 2020</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Interests-->
+            <section class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Проекты</h2>
+                    <p>В данный момент я публикую все свои проекты в <a href="https://github.com/akiayane" target="_blank" >Github</a>. Однако, некоторые из них сохранены в приватных репозиториях, и о них я смогу рассказать при встрече.</p>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Awards-->
+            <section class="resume-section" id="awards">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Контакты</h2>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item">+7 705 583 75 54</li><br>
+                        <li class="list-inline-item"><a class="social-icon" href="mailto:aitbek.ayaganov@gmail.com" target="_blank">aitbek.ayaganov@gmail.com</a></li><br>
+                        <li class="list-inline-item"><a class="social-icon" href="https://t.me/akiayane" target="_blank">Telegram</a></li>
+                        <li class="list-inline-item"><a class="social-icon" href="https://wa.me/77055837554" target="_blank">Whatsapp</a></li>
+                        
+                    </ul>
+                </div>
+            </section>
         </div>
-      </div>
-    </div>
-
-
-
-    <div style="background-color: black; color:white;" class="block">
-      <div style="padding-left:5vw; padding-right:5vw;" class="education-grid-container">
-        <div class="quote">
-          <div style="text-align:center">
-            <div class="titleline-subject" style="padding-top:5vh;">Education</div>
-            <div class="text" style = "color:#DE354C"><q>The pain of studying is only temporary.
-               But the pain of not knowing — ignorance — is forever</q>
-             <br>- Henry Novak
-           </div>
-          </div>
-        </div>
-
-        <div style="padding-top:3vw;">
-          <div class="title">
-            <strong>AITU</strong>
-          </div>
-          <div  class="text">
-            Astana IT University
-          </div>
-          <div style="padding-top:1vw;"  class="text">
-            Sep 2019 - Present
-          </div>
-        </div>
-
-        <div style="padding-top:3vw;" class="Uni">
-          <div class="title">
-            <strong>Bachelor - Software Engineering</strong>
-          </div>
-          <div  class="text">
-            Since I am a sophomore in my University courses, I am already familiar with the basics of programming, computer science,
-            algorithms and data structures, OOP principles, design patterns,
-            web technologies and had experience with different projects as part of term papers.
-            I also studied English for professional purposes and had courses for higher mathematics like discrete math and calculus.
-          </div>
-        </div>
-
-        <div style="padding-top:3vw;">
-          <div  class="title">
-            <strong>NIS in Nur-Sultan</strong>
-          </div>
-          <div  class="text">
-            Nazarbayev Intellectual school of Physics and Maths in Nur-Sultan
-          </div>
-          <div style="padding-top:1vw;"  class="text">
-            Sep 2015 - June 2019
-          </div>
-        </div>
-        <div style="padding-top:3vw;" class="HighSchool">
-          <div class="title">
-            <strong>High School - Physics and Maths</strong>
-          </div>
-          <div  class="text">
-            In high school, I took my first steps into science and advanced mathematics.
-            I got the basics of Computer Science and coded my first programs.
-            In addition, I studied English a lot and got IELTS 6.5 at the end of high school. Besides academic achievements,
-            I formed such soft skills as communication and leadership, stress resistance, and critical thinking
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <div style="background-color:black; color:white;" class="block">
-      <div style="padding-left:5vw; padding-right:5vw;" class="skills-grid-container">
-        <div class="skills">
-          <div style="text-align:center">
-            <div class="titleline-subject" style="padding-top:5vh;">Skills</div>
-          </div>
-        </div>
-
-        <div>
-          <div style="text-align:center; padding-top:3vw;" class="title">
-            I am familiar with these programming languages:
-            <ul style="list-style-type: none;" class="text">
-              <li>Golang</li>
-              <li>PHP7</li>
-              <li>Java</li>
-            </ul>
-          </div>
-
-          <div style="text-align:center" class="title">
-            I am familiar with these RDBMSs:
-            <ul style="list-style-type: none;" class="text">
-              <li>MySQL</li>
-              <li>PostgreSQL</li>
-            </ul>
-          </div>
-        </div>
-
-        <div>
-            <div style="text-align:center; padding-top:3vw;" class="title">
-            I am also familiar with these technologies and principles:
-            <ul style="list-style-type: none;"  class="text">
-              <li>REST API</li>
-              <li>gRPC</li>
-              <li>Protocol Buffers</li>
-              <li>JSON&XML</li>
-              <li>Docker</li>
-              <li>HTML&CSS</li>
-              <li>Bash</li>
-            </ul>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-    <div style="background-color:black; color:white;" class="block">
-      <div style="padding-left:5vw; padding-right:5vw;" class="skills-grid-container">
-        <div class="skills">
-          <div style="text-align:center">
-            <div class="titleline-subject" style="padding-top:5vh;">Work experience & Projects</div>
-          </div>
-        </div>
-
-        <div style="padding-top:3vw;">
-          <div class="title">
-            Careers:
-            <div>
-              <ul style="">
-                <li  class="text">
-                  Content-Engineer At Bilim Media Group.
-                  <div><br>Was responsible for transforming given data into structures, testing with different platforms and loading assets to server.</div>
-                </li>
-                <br>
-                <li  class="text">
-                  Software Engineer Intern At The Republican scientific and practical center «Daryn».
-                  <div><br>Was responsible for writing backend for different websites using PHP. Also did some work creating REST API using Golang for Republican Olympiad.</div>
-                </li>
-
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div style="padding-top:3vw;">
-          <div class="title">
-            Projects:
-            <div class="text">
-              <ul style="list-style-type: none;">
-                <li>
-                  Currently, I am posting all of my projects on GitHub, so you are welcome to see them!
-                  <div><br><a style="color:white" href="https://github.com/akiayane?tab=repositories">Here is a link</a></div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-    <div style="top:100%; background-color: black; color:white" class="block">
-      <div style="padding-left:5vw; padding-right:5vw;" class="profile-grid-container">
-        <div style="text-align:center">
-          <div class="titleline-subject" style="padding-top:5vh;">Contacts</div>
-        </div>
-        <div>
-          <div style="">
-            <div style="padding-top:5vh; font-size:4vh;">
-              <a style="color:white" href="https://t.me/akiayane"><span class="text">t.me/akiayane</span></a>
-              <br>
-              <span class="text">aitbek.ayaganov@gmail.com</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-  </body>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
